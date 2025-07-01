@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,500;1,600&family=Pacifico&display=swap');
+
+
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.botao {
+  background-color: rgb(64, 64, 226);
+}
+
+.title {
+  color: rgb(242, 242, 242);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fundo {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.central {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(242, 242, 242);
+  width: 320px;
+  height: 500px;
+  border-radius: 3%;
+}
+
+.FundoBotoes {
+  position: absolute;
+  top: 29%;
+  background-color: rgb(242, 242, 242);
+  width: 310px;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+button {
+  border-color: rgb(255, 255, 255);
+  width: 75px;
+  height: 47px;
+  margin: 1px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  top: 57%;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  border-style: groove;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#igual {
+  background-color: rgba(30, 30, 255, 0.942);
+  color: white;
+  font-size: 18px;
+  border-color: rgb(255, 255, 255);
+}
+
+.Visor {
+  background-color: rgb(242, 242, 242);
+  width: 310px;
+  height: 110px;
+  position: absolute;
+  top: 14%;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 40px;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+  .botao {
+    background-color: rgb(64, 64, 226);
+  }
+
+  .title {
+    text-align: center;
+    color: #e8ff52;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .fundo {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .central {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(242, 242, 242);
+    width: 320px;
+    height: 500px;
+    border-radius: 3%;
+  }
+
+  .FundoBotoes {
+    position: absolute;
+    top: 29%;
+    background-color: rgb(242, 242, 242);
+    width: 310px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  button {
+    border-color: rgb(255, 255, 255);
+    width: 75px;
+    height: 47px;
+    margin: 1px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 57%;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    border-style: groove;
+  }
+
+  #igual {
+    background-color: rgba(30, 30, 255, 0.942);
+    color: white;
+    font-size: 18px;
+    border-color: rgb(255, 255, 255);
+  }
+
+  .Visor {
+    background-color: rgb(242, 242, 242);
+    width: 310px;
+    height: 110px;
+    position: absolute;
+    top: 13%;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 40px;
+    font-style: normal;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+
+  .botao {
+    background-color: rgb(64, 64, 226);
+  }
+
+  .title {
+    text-align: center;
+    color: #52daff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .fundo {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .central {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(242, 242, 242);
+    width: 320px;
+    height: 500px;
+    border-radius: 3%;
+  }
+
+  .FundoBotoes {
+    position: absolute;
+    top: 30%;
+    background-color: rgb(242, 242, 242);
+    width: 310px;
+    height: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  button {
+    border-color: rgb(255, 255, 255);
+    width: 75px;
+    height: 47px;
+    margin: 1px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 44%;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    border-style: groove;
+  }
+
+  #igual {
+    background-color: rgba(30, 30, 255, 0.942);
+    color: white;
+    font-size: 18px;
+    border-color: rgb(255, 255, 255);
+  }
+
+  .Visor {
+    background-color: rgb(242, 242, 242);
+    width: 310px;
+    height: 110px;
+    position: absolute;
+    top: 15%;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 40px;
+    font-style: normal;
+  }
+}
