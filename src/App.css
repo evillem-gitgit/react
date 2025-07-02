@@ -9,10 +9,6 @@ body{
 }
 
 
-.botao {
-  background-color: rgb(64, 64, 226);
-}
-
 .title {
   color: rgb(242, 242, 242);
   text-align: center;
@@ -148,7 +144,7 @@ button {
   }
 
   #igual {
-    background-color: rgba(30, 30, 255, 0.942);
+    background-color: rgba(29, 29, 255, 0.942);
     color: white;
     font-size: 18px;
     border-color: rgb(255, 255, 255);
